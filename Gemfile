@@ -3,9 +3,9 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem 'sinatra'
+gem 'sinatra', '>= 2.0.0'
 gem 'rake'
-gem 'thin'
+gem 'thin', '>= 1.7.0'
 gem 'shotgun'
 gem 'pry'
 gem 'require_all'
